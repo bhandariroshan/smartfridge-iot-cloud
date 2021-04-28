@@ -1,0 +1,2 @@
+# smartfridge-iot-cloud
+The IoT based smart fridge converts your regular fridge into a  “smart” fridge by taking timely snapshots of what’s there in your fridge and then sending a status copy of it to your mail inbox or SMS.  It makes use of M5 stack device/IoT camera to take pictures which then is sent to M5 stack cloud. Subsequently, it leverages the AWS services such as Lambda,DynamoDB, S3, SNS and Google Cloud Vision to identify the objects present and report it to you via the SMS or Email service. 
